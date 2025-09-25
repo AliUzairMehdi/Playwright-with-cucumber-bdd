@@ -1,0 +1,26 @@
+{
+  "name": "automation-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node cucumber.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@cucumber/messages": "^27.0.0",
+    "@types/node": "^24.5.2",
+    "allure-commandline": "^2.20.0",
+    "allure-cucumberjs": "^2.15.1",
+    "allure-js-commons": "^2.0.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "playwright": "^1.49.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.55.1"
+  }
+}
