@@ -1,0 +1,9 @@
+{
+  "maxTimeout": 60000,
+  "littleWait": 1000,
+  "verySmallWait": 3000,
+  "smallWait": 10000,
+  "intermediateWait": 20000,
+  "mediumWait": 30000,
+  "longWait": 40000
+}

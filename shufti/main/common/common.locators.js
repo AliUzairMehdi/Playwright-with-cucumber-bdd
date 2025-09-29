@@ -1,0 +1,22 @@
+export const commonLocators={
+    navigationBar:{
+        dashboardButton:'.//a[@href="uniqe_sb_dashboard"]',
+        customersButton:`//a[@id="uniqe_sb_customers"]`,
+        reportsButton:`//a[@id="uniqe_sb_verifications"]`,
+        manualReviewButton:`//a[@id="manual_review_verifications"]`,
+    },
+    header:{
+        searchReferenceInputField:`//input[@id="search_reference"]`,
+        accountSwitcher:``,
+        whatsNewButton:`//button[@id="whats_new_button"]`,
+        userProfileDropdown:`//div[@class="user-profile"]`,
+        logoutButton:`//a[text()="Logout"]`
+    },
+    filters:{
+        timeRangeDropdown:``,
+    },
+    table:{
+        tableHeaderColumns:`.//table[@id="listing_table"]//*/th[normalize-space(.)]`,
+        tableRows:`.//table[@id="listing_table"]//*/tbody/tr`,
+    }
+}
