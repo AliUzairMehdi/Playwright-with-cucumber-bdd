@@ -8,11 +8,12 @@ export async function userNavigatesToLoginPage(page,testInfo) {
 }
 
 export async function userFillsLoginForm(page){
-    await page.fill(authPageLocators.loginPagelocators.emailInput,"samiur.rahman@shufti.com")
-    await page.fill(authPageLocators.loginPagelocators.passwordInput,"Sami@programmersforce123")
+    await page.fill(authPageLocators.loginPagelocators.emailInput,"")
+    await page.fill(authPageLocators.loginPagelocators.passwordInput,"")
 }
 
 export async function userSubmitsLoginForm(page){
     await page.click(authPageLocators.loginPagelocators.loginButton);
     await page.waitForTimeout(60000);
+
 }
